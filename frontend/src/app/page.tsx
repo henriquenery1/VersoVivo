@@ -1,6 +1,7 @@
 
-import Background from "./components/Background";
-import Header from './components/Header';
+import ContentList from "@/components/ContentList";
+import Background from "../components/Background";
+import Header from '../components/Header';
 
 export default function Home() {
 
@@ -9,6 +10,8 @@ export default function Home() {
       <Background />
 
       <Header title="Verso vivo" />
+
+      <ContentList />
       
     </main>
   );

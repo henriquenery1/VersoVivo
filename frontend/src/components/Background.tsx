@@ -1,4 +1,4 @@
-import bgImage from '../../../public/whiteaokNigthOk.png'
+import bgImage from '../../public/whiteaokNigthOk.png'
 import Image from 'next/image'
 
 export default function Background() {
