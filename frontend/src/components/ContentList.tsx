@@ -19,7 +19,7 @@ const ContentList: React.FC = () => {
     return (
       <ul className='flex flex-col items-center justify-center relative z-10'>
       <div className='bg-[rgb(123,123,130)] bg-opacity-60 rounded-full shadow-lg p-4 w-[45rem] text-center'>
-        <p className='text-3xl font-bold font-gochi'>Loading...</p>
+        <p className='text-3xl font-bold'>Loading...</p>
       </div>
       </ul>
     );
