@@ -1,6 +1,6 @@
 import ContentList from "@/components/ContentList";
-import Background from "../components/Background";
-import Header from '../components/Header';
+import Background from "@/components/Background";
+import Header from '@/components/Header';
 
 export default function Home() {
 

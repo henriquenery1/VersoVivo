@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import ContentItem from './Contentitem';
-import { fetchContents, Content } from '../utils/fetchContent';
+import { fetchContents, Content } from '@/utils/fetchContent';
 
 const ContentList: React.FC = () => {
   const [contents, setContents] = useState<Content[] | null>(null);
