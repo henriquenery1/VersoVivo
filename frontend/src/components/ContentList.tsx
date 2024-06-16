@@ -19,14 +19,14 @@ const ContentList: React.FC = () => {
     return (
       <ul className='flex flex-col items-center justify-center relative z-10'>
       <div className='bg-[rgb(123,123,130)] bg-opacity-60 rounded-full shadow-lg p-4 w-[45rem] text-center'>
-        <p className='text-3xl font-bold'>Loading...</p>
+        <p className='text-4xl font-bold'>Loading...</p>
       </div>
       </ul>
     );
   }
 
   return (
-    <div className='overflow-y-auto max-h-96 relative z-10'>
+    <div className='overflow-y-auto max-h-[360px] relative z-10'>
       <ul className='flex flex-col items-center justify-center'>
         {contents.map((content) => (
           <ContentItem key={content.id} id={content.id} title={content.title} />
