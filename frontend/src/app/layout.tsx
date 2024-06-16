@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Gochi_Hand } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const gochiHand = Gochi_Hand({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Verso vivo",
@@ -15,8 +15,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br">
+      
+      <body className={gochiHand.className}>{children}</body>
     </html>
   );
 }
