@@ -3,17 +3,14 @@ import Image from 'next/image'
 
 export default function Background() {
   return (
-    <Image
-      alt="Background"
-      src={bgImage}
-      placeholder="blur"
-      quality={100}
-      fill
-      sizes="100vw"
-      style={{
-        objectFit: 'cover',
-        zIndex: -1,
-      }}
-    />
+    <div className='inset-0 z-0'>
+      <Image
+        alt="Background"
+        src={bgImage}
+        quality={100}
+        fill
+        sizes="100vw"
+        />
+    </div>
   )
 }

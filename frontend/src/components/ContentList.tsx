@@ -17,7 +17,7 @@ const ContentList: React.FC = () => {
 
   if (!contents) {
     return (
-      <ul className='flex flex-col items-center justify-center'>
+      <ul className='flex flex-col items-center justify-center relative z-10'>
       <div className='bg-[rgb(123,123,130)] bg-opacity-60 rounded-full shadow-lg p-4 w-[45rem] text-center'>
         <p className='text-3xl font-bold font-gochi'>Loading...</p>
       </div>
@@ -26,7 +26,7 @@ const ContentList: React.FC = () => {
   }
 
   return (
-    <div className='overflow-y-auto max-h-96'>
+    <div className='overflow-y-auto max-h-96 relative z-10'>
       <ul className='flex flex-col items-center justify-center'>
         {contents.map((content) => (
           <ContentItem key={content.id} id={content.id} title={content.title} />
