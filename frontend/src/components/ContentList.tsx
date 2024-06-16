@@ -14,15 +14,23 @@ const ContentList: React.FC = () => {
     };
     loadContents();
   }, []);
-  
-  if (!contents) return <p>Loading...</p>;
+
+  if (!contents) {
+    return (
+      <div className='flex flex-col items-center justify-center'>
+        <ContentItem id='' title='loading' />
+      </div>
+    );
+  }
 
   return (
-    <ul>
-      {contents.map((content) => (
-        <ContentItem key={content.id} id={content.id} title={content.title} />
-      ))}
-    </ul>
+    <div className='overflow-y-auto max-h-96'>
+      <ul className='flex flex-col items-center justify-center'>
+        {contents.map((content) => (
+          <ContentItem key={content.id} id={content.id} title={content.title} />
+        ))}
+      </ul>
+    </div>
   );
 };
 
