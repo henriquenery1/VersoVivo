@@ -6,7 +6,7 @@ import { fetchContents, Content } from '../utils/fetchContent';
 
 const ContentList: React.FC = () => {
   const [contents, setContents] = useState<Content[] | null>(null);
-  
+
   useEffect(() => {
     const loadContents = async () => {
       const data = await fetchContents();
@@ -17,9 +17,11 @@ const ContentList: React.FC = () => {
 
   if (!contents) {
     return (
-      <div className='flex flex-col items-center justify-center'>
-        <ContentItem id='' title='loading' />
+      <ul className='flex flex-col items-center justify-center'>
+      <div className='bg-[rgb(123,123,130)] bg-opacity-60 rounded-full shadow-lg p-4 w-[45rem] text-center'>
+        <p className='text-3xl font-bold font-gochi'>Loading...</p>
       </div>
+      </ul>
     );
   }
 
