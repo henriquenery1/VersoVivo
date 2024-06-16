@@ -1,11 +1,8 @@
+import { Content } from '../utils/fetchContent';
 import Link from 'next/link';
 
-type ContentItemProps = {
-  id: string;
-  title: string;
-};
 
-const ContentItem: React.FC<ContentItemProps> = ({ id, title }) => {
+const ContentItem: React.FC<Content> = ({ id, title }) => {
   return (
     <li className="my-4">
       <Link href={`/content/${id}`}>
