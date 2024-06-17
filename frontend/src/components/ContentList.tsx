@@ -26,7 +26,7 @@ const ContentList: React.FC = () => {
   }
 
   return (
-    <div className='overflow-y-auto max-h-96 relative z-10'>
+    <div className='overflow-y-auto max-h-[26rem] relative z-10 p-4'>
       <ul className='flex flex-col items-center justify-center'>
         {contents.map((content) => (
           <ContentItem key={content.id} id={content.id} title={content.title} />

@@ -16,7 +16,7 @@ export default function SearchBar({ placeholder }: SearchBarProps) {
     }
 
     return (
-        <div className='relative z-10 flex items-center justify-center mb-10'>
+        <div className='relative z-10 flex items-center justify-center mb-14'>
             <div className="bg-[#7B7B82] bg-opacity-60 w-[35rem] shadow-lg rounded-xl flex items-center justify-between px-4">
                 <input
                     className="bg-transparent text-center py-[9px] outline-2 placeholder:text-gray-700 text-4xl font-normal flex-grow focus:outline-none"
