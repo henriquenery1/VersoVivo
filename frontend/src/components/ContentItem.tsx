@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 
 const ContentItem: React.FC<Content> = ({ id, title }) => {
+  
   return (
     <li className="my-4">
       <Link href={`/content/${id}`}>
