@@ -6,8 +6,8 @@ interface Props {
 
 const ShowContent: React.FC<Props> = ({ body }) => {
   return (
-    <div className="relative z-10 p-10 w-3/5 mx-auto shadow-lg bg-[#7B7B82] bg-opacity-80 rounded-3xl overflow-auto max-h-[38rem] custom-scrollbar">
-      <p className="text-3xl text-content-pen">
+    <div className="relative z-10 p-10 w-3/5 mx-auto shadow-lg bg-[#7B7B82] bg-opacity-75 rounded-3xl overflow-auto max-h-[38rem] custom-scrollbar">
+      <p className="text-3xl text-content-pen leading-10">
         {body}
       </p>
     </div>
