@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         'custom-purple': '#F5F5F5',
+        'content-pen': '#020526'
       },
       boxShadow: {
         'custom': '0 0 65px rgba(0, 0, 0, 0.5)',
