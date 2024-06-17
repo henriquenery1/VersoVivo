@@ -3,6 +3,7 @@
 import Background from "@/components/Background";
 import Header from "@/components/Header";
 import ShowContent from "@/components/ShowContent";
+import TextNavigation from "@/components/TextNavigation";
 import { Content, fetchContents } from "@/utils/fetchContent";
 import { useState, useEffect } from "react";
 
@@ -51,6 +52,7 @@ export default function ContentDetails({ params }: Props) {
 
       <ShowContent body={content.body} />
 
+    <TextNavigation title="Voltar" />
     </>
   );
 }
