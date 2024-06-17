@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'custom-purple': '#E6E5FF',
+        'custom-purple': '#F5F5F5',
       },
       boxShadow: {
         'custom': '0 0 65px rgba(0, 0, 0, 0.5)',
