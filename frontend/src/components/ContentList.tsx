@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import ContentItem from './Contentitem';
+import ContentItem from './ContentItem';
 import { fetchContents, Content } from '@/utils/fetchContent';
 
 const ContentList: React.FC = () => {
