@@ -13,8 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontFamily: {
-        gochi: ['Gochi Hand', 'cursive'],
+      colors: {
+        'custom-purple': '#E6E5FF',
+      },
+      boxShadow: {
+        'custom': '0 0 65px rgba(0, 0, 0, 0.5)',
       },
     },
   },

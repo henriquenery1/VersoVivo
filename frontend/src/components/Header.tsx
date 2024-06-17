@@ -1,11 +1,18 @@
+import { Baloo_Bhaina_2 } from 'next/font/google';
+
+const balooBhaina = Baloo_Bhaina_2({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'],
+});
+
 type HeaderProps = {
   title: string;
 };
 
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
-    <header className="text-center py-8 relative z-10">
-      <h1 className="text-7xl font-bold text-white">{title}</h1>
+    <header className="text-center py-8 relative z-10 my-10">
+      <h1 className={`text-7xl font-extrabold text-custom-purple ${balooBhaina.className}`}>{title}</h1> 
     </header>
   );
 };

@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main className="">
       <Background />
+
       <Header title="Verso vivo" />
 
       <SearchBar placeholder="Pesquisar..."/> 
