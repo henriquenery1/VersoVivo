@@ -3,6 +3,7 @@ import Background from "@/components/Background";
 import Header from '@/components/Header';
 import SearchBar from "@/components/SearchBar";
 import CreateContentButton from "@/components/CreateContentButton";
+import TextNavigation from "@/components/TextNavigation";
 
 export default function Home() {
 
@@ -21,6 +22,8 @@ export default function Home() {
       </div>
 
       <ContentList />
+
+      <TextNavigation paginate="/create-content" title="Criar" />
 
     </main>
   );
