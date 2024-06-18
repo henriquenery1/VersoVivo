@@ -2,10 +2,6 @@
 
 Bem-vindo ao **Verso Vivo**! O inefável blog.
 
-## 🎶 O que é o Verso Vivo?
-
-Aqui, você pode se inspirar com os conteúdos. Nossa plataforma foi criada para ser um lugar onde você pode não apenas ler, mas também criar e compartilhar suas ideias.
-
 ## ✨ Funcionalidades
 
 - **Criação e Consumo de Conteúdo**: Publique seus próprios artigos ou explore uma variedade de textos interessantes escritos por outros usuários.
