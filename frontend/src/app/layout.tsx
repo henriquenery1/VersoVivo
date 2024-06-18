@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Gochi_Hand } from "next/font/google";
+import { Indie_Flower } from "next/font/google";
 import "./globals.css";
 
-const gochiHand = Gochi_Hand({ weight: '400', subsets: ['latin'] });
+const permanentMarker = Indie_Flower({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Verso vivo",
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       
-      <body className={gochiHand.className}>{children}</body>
+      <body className={permanentMarker.className}>{children}</body>
     </html>
   );
 }
