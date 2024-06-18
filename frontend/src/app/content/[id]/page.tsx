@@ -52,7 +52,7 @@ export default function ContentDetails({ params }: Props) {
 
       <ShowContent body={content.body} />
 
-    <TextNavigation title="Voltar" />
+    <TextNavigation paginate="/" title="Voltar" />
     </>
   );
 }

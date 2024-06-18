@@ -8,12 +8,13 @@ const balooBhaina = Baloo_Bhaina_2({
 
 type TextrProps = {
     title: string;
+    paginate: string
 };
 
-const TextNavigation: React.FC<TextrProps> = ({ title }) => {
+const TextNavigation: React.FC<TextrProps> = ({ title, paginate }) => {
     return (
-        <Link href={`/`} className='fixed z-10 bottom-0 right-0 text-5xl p-16'>
-            <h2>Voltar</h2>
+        <Link href={paginate} className='fixed z-10 bottom-0 right-0 text-5xl p-16'>
+            <h2>{title}</h2>
         </Link>
     );
 };

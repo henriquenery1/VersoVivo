@@ -14,7 +14,7 @@ export default function CreateContent() {
 
       <AddContent />
 
-      <TextNavigation title="Voltar" />
+      <TextNavigation paginate="/" title="Voltar" />
 
     </main>
   );
