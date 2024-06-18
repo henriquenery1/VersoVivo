@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 Verso Vivo - Frontend 🌿
 
-## Getting Started
+Bem-vindo ao repositório de frontend do **Verso Vivo**!
 
-First, run the development server:
+## 🚀 Tecnologias Utilizadas
+
+### Next.js
+
+O **Next.js** é um framework React para desenvolvimento de aplicações web.
+
+### React
+
+O **React** é uma biblioteca JavaScript para a construção de interfaces de usuário. É a base sobre a qual o Next.js é construído e oferece:
+
+### Tailwind CSS
+
+**Tailwind CSS** é uma framework CSS utilitário que permite construir interfaces sem sair do HTML:
+
+Claro! Aqui está o README.md com as instruções de instalação e contribuição:
+
+## 🔧 Configuração do Ambiente
+
+### Instruções de Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/henriquenery1/VersoVivo
+   cd VersoVivo/frontend
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   # ou
+   pnpm install
+   # ou
+   bun install
+   ```
+
+### Iniciando o Servidor de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤝 Contribuição
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Junte-se a nós e ajude a criar uma plataforma onde a criatividade e a leitura fluem de maneira prazerosa. 🌿
