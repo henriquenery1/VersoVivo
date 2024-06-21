@@ -1,5 +1,4 @@
 import ContentList from "@/components/ContentList";
-import Background from "@/components/Background";
 import Header from '@/components/Header';
 import SearchBar from "@/components/SearchBar";
 import CreateContentButton from "@/components/CreateContentButton";

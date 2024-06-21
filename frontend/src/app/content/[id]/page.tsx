@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import ShowContent from "@/components/ShowContent";
 import TextNavigation from "@/components/TextNavigation";
 
