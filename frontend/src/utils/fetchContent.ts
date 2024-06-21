@@ -11,8 +11,7 @@ export const fetchContents = async (): Promise<Content[]> => {
       contents.push({
         id: i.toString(),
         title: `Publicação Aleatória ${i}`,
-        body: `
-            1 Vós, filhos, sede obedientes a vossos pais no Senhor, porque isto é justo.
+        body: `1 Vós, filhos, sede obedientes a vossos pais no Senhor, porque isto é justo.
 2 Honra a teu pai e a tua mãe, que é o primeiro mandamento com promessa;
 3 Para que te vá bem, e vivas muito tempo sobre a terra.
 4 E vós, pais, não provoqueis à ira a vossos filhos, mas criai-os na doutrina e admoestação do Senhor.
