@@ -18,7 +18,7 @@ const ContentList: React.FC = () => {
   if (!contents) {
     return (
       <ul className='flex flex-col items-center justify-center relative'>
-        <div className='bg-[rgb(123,123,130)] bg-opacity-60 rounded-full shadow-lg p-4 w-[45rem] text-center'>
+        <div className='bg-stormy-grey bg-opacity-60 rounded-full shadow-lg p-4 w-[45rem] text-center'>
           <p className='text-4xl font-bold'>Loading...</p>
         </div>
       </ul>
