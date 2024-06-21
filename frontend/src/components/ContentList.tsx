@@ -26,7 +26,7 @@ const ContentList: React.FC = () => {
   }
 
   return (
-      <div className='overflow-y-auto max-h-[26rem] relative p-4 custom-scrollbar max-w-[48rem] mx-auto'>
+      <div className='overflow-y-auto max-h-[29rem] relative p-4 custom-scrollbar max-w-[48rem] mx-auto'>
         <ul className='flex flex-col items-center justify-center'>
           {contents.map((content) => (
             <ContentItem key={content.id} id={content.id} title={content.title} body={''} />
