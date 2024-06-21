@@ -18,7 +18,8 @@ const config: Config = {
       colors: {
         'custom-purple': '#F5F5F5',
         'content-pen': '#020526',
-        'old-book-page': '#f3cea1'
+        'old-book-page': '#f3cea1',
+        'stormy-grey': '#7B7B82'
       },
       boxShadow: {
         'custom': '0 0 65px rgba(0, 0, 0, 0.5)',
