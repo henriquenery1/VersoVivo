@@ -11,7 +11,7 @@ type HeaderProps = {
 
 const Header: React.FC<HeaderProps> = ({ title }) => {
   return (
-    <header className="text-center py-8 relative z-10 my-10">
+    <header className="text-center pt-16 relative mb-16">
       <h1 className={`text-7xl font-extrabold text-custom-purple ${balooBhaina.className}`}>{title}</h1> 
     </header>
   );

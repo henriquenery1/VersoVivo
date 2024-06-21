@@ -13,7 +13,7 @@ type TextrProps = {
 
 const TextNavigation: React.FC<TextrProps> = ({ title, paginate }) => {
     return (
-        <Link href={paginate} className='fixed z-10 bottom-0 right-0 text-5xl p-16'>
+        <Link href={paginate} className='fixed bottom-0 right-0 text-5xl p-16'>
             <h2>{title}</h2>
         </Link>
     );

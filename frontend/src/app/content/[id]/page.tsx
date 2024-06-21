@@ -45,14 +45,12 @@ export default function ContentDetails({ params }: Props) {
   const content = contents[0];
 
   return (
-    <>
-      <Background />
-
+    <main className="bg-image-bg h-screen">
       <Header title={content.title} />
 
       <ShowContent body={content.body} />
 
     <TextNavigation paginate="/" title="Voltar" />
-    </>
+    </main>
   );
 }

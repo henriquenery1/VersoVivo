@@ -8,12 +8,10 @@ import TextNavigation from "@/components/TextNavigation";
 export default function Home() {
 
   return (
-    <main className="">
-      <Background />
-
+    <main className="bg-image-bg h-screen">
       <Header title="Verso vivo" />
 
-      <div className="relative z-10 flex items-center justify-center">
+      <div className="relative flex items-center justify-center">
         <div className="flex items-center justify-between mb-10">
           <SearchBar placeholder="Pesquisar..." />
 

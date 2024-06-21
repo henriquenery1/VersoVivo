@@ -7,9 +7,7 @@ import TextNavigation from "@/components/TextNavigation";
 export default function CreateContent() {
 
   return (
-    <main className="">
-      <Background />
-
+    <main className="bg-image-bg h-screen">
       <Header title="Espaço de criação" />
 
       <AddContent />
