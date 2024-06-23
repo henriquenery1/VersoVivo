@@ -12,4 +12,10 @@ Criar um local excelente tanto para a criação quanto para a leitura de conteú
 
 ---
 
+## Design
+
+<p align="center">
+  <img src="./frontend/public/design_fontend.png" alt="Verso Vivo Design">
+</p>
+
 Junte-se a nós nessa jornada de criatividade e inspiração. Crie, leia, compartilhe, desenvolva e viva o Verso Vivo!
